@@ -1,0 +1,58 @@
+@import url("../global.css");
+
+.section-about{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 64px 0px 80px 0px;
+    background-color: var(--color-dark);
+    font-family: var(--font-family-montserrat);
+
+}
+
+.content-about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.content-about h2{
+    color: var(--color-white);
+    font-size: var(--font-h3);
+    font-weight: bold;
+
+}
+
+.content-about p{
+    color: var(--color-white);
+    width: 700px;
+    text-align: center;
+    font-size: var(--font-body-medium);
+    line-height: 150%;
+}
+
+.container-numbers-itens{
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+}
+
+.numbers-item{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+
+.numbers-item h2{
+    font-size: var(--font-h1);
+    color: var(--color-pink);
+    font-weight: bold;
+}
+
+.numbers-item p{
+    font-size: var(--font-body-large);
+    color: var(--color-white);
+    font-weight: bold;
+}
