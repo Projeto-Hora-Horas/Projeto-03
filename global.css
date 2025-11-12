@@ -1,0 +1,44 @@
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    /* COLORS */
+    --color-red: #FC3314;
+    --color-pink: #FFD4D0;
+    --color-dark: #1F1F1F;
+    --color-dark-grey: #8D8D8D;
+    --color-medium-grey: #E1E1E1;
+    --color-grey: #F7F7F7;
+    --color-white: #FFFFFF;
+
+    /* FONTS */
+    --font-h1: 64px;
+    --font-h2: 48px;
+    --font-h3: 36px;
+    --font-body-xlarge: 20px;
+    --font-body-large: 18px;
+    --font-body-medium: 16px;
+    --font-body-small: 14px;
+    --font-body-small2: 12px;
+    --font-family-montserrat: "Montserrat", sans-serif;
+
+    h2{
+        font-weight: bold;
+        font-size: var(--font-h3);
+        font-family: var(--font-family-montserrat);
+    }
+
+    h3{
+        font-weight: bold;
+        font-size: var(--font-body-large);
+        font-family: var(--font-family-montserrat);
+    }
+
+    p{
+        font-family: var(--font-family-montserrat);
+    }
+}
