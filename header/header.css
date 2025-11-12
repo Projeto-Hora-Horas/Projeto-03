@@ -8,6 +8,26 @@ header{
     background-color: var(--color-pink);
 }
 
-.nav-header{
-    
+.nav-header ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 32px;    
+}
+
+.nav-header a{
+     text-decoration: none;
+     font-family: var(--font-family-montserrat);
+     font-size: var(--font-body-large);
+     color: var(--color-dark);
+     font-weight: bold;
+}
+
+.btn-header{
+    background-color: var(--color-dark);
+    text-decoration: none;
+    padding: 12px 24px;
+    color: var(--color-white);
+    font-weight: bold;
+    font-size: var(--font-body-medium);
 }
