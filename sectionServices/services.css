@@ -1,0 +1,39 @@
+@import url(../global.css);
+
+.section-services{
+    padding: 64px 124px;
+    background-color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.services-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.services-main p{
+    width: 710px;
+    text-align: center;
+    color: var(--color-dark);
+    font-size: var(--font-body-medium);
+}
+
+.services-container{
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.services-content{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.services-content p{
+    width: 290px;
+}
