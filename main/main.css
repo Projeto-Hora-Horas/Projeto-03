@@ -1,0 +1,77 @@
+@import url(../global.css);
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+    padding: 60px 0;
+    background-color: var(--color-pink);
+
+}
+
+.content-main{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    
+
+}
+
+.content-main p{
+    color: var(--color-dark);
+    font-size: var(--font-body-medium);
+    font-family: var(--font-family-montserrat);
+    font-weight: 400;
+    width: 410px;
+     line-height: 150%;
+    
+}
+
+.active-designer{
+    color: var(--color-dark);
+    font-size: var(--font-body-xlarge);
+    font-family: var(--font-family-montserrat);
+    font-weight: 400;
+}
+
+.content-main h1{
+    font-weight: 700;
+    font-size: var(--font-h2);
+    font-family: var(--font-family-montserrat);
+    font-weight: bold;
+    width: 457px;
+    line-height: 150%;
+}
+
+.active-sarah{
+    color: var(--color-red);
+}
+.btn-main{
+    display: flex;
+    padding-top: 48px;
+    gap: 20px;
+}
+
+.btn-hire{
+    background-color: var(--color-dark);
+    padding: 12px 56px;
+    color: var(--color-white);
+    text-decoration: none;
+    font-family: var(--font-family-montserrat);
+    font-weight: bold;
+    font-size: var(--font-body-medium);
+}
+
+.btn-portfolio{
+    background-color: var(--color-white);
+    padding: 12px 56px;
+    color: var(--color-black);
+    text-decoration: none;
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-body-medium);
+    border: 1px solid var(--color-black);
+    font-size: var(--font-body-medium);
+    font-weight: bold;
+
+}
