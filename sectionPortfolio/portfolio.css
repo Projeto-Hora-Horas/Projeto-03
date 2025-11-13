@@ -34,6 +34,13 @@
     display: flex;
     flex-direction: column;
     gap: 32px;
+    width: 354px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.portfolio-content:hover{
+    transform: scale(1.1);
 }
 
 .portfolio-content-items{
@@ -60,4 +67,6 @@
 
 .portfolio-content-items-btn{
     align-self: self-end;
+    transition: 0.3s;
 }
+

@@ -25,15 +25,31 @@
 .services-container{
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 32px;
+    padding: 16px;
 }
 
 .services-content{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 24px;
+    width: 274px;
+    cursor: pointer;
+    transition: 0.1s;
 }
 
-.services-content p{
+.services-content:hover{
+    transform: scale(1.1);
+    box-shadow: 0 2px 4px 1px var(--color-dark);
+}
+
+.services-content-items{
+    display: flex;
+    flex-direction: column;
+}
+
+.services-content-items p{
     width: 290px;
 }
