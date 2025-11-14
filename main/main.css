@@ -70,8 +70,9 @@ main{
     text-decoration: none;
     font-family: var(--font-family-montserrat);
     font-size: var(--font-body-medium);
-    border: 1px solid var(--color-black);
+    border: 1px solid var(--color-dark);
     font-size: var(--font-body-medium);
     font-weight: bold;
+    
 
 }
